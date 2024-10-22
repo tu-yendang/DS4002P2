@@ -14,27 +14,17 @@ The follow is a map of our project's repository.
 * DS4002P2 (main directory)
     * DATA - Folder
         * Artist CSV Data - Folder
-            * bridgit_mendler.csv
-            * demi_lovato.csv
-            * dove_cameron.csv
-            * jonas_brothers.csv
-            * miley_cyrus.csv
-            * ross_lynch.csv
-            * selena_gomez.csv
-            * vanessa_hudgens.csv
+            * Folder contains CSV files for each chosen former Disney Star. The chosen Disney stars were: Bridget Mendler, Demi Lovato, Dove Cameron, Jonas Brothers, Miley Cyrus, Ross Lynch, Selena Gomez, and Vanessa Hudgens
         * Raw JSON Data - Folder
-            * bridgit_mendler.json
-            * demi_lovato.json
-            * dove_cameron.json
-            * jonas_brothers.json
-            * miley_cyrus.json
-            * ross_lynch.json
-            * selena_gomez.json
-            * vanessa_hudgens.json
-        * monthly_listeners_final.csv
+            * Folder contains JSON files (raw data) for the same former Disney Stars.
+        * monthly_listeners_final.csv (final data)
     * SCRIPTS - Folder
         * preprocessing.ipynb
+        * analysis.ipynb
     * OUTPUT - Folder
+        * monthly_listeners_scaled_time_plot.png
+        * monthly_listeners_time_plot.png
+        * numerical_statistical_results.csv
     * LICENSE.md
     * README.md
 
