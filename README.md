@@ -25,6 +25,7 @@ The follow is a map of our project's repository.
         * monthly_listeners_scaled_time_plot.png
         * monthly_listeners_time_plot.png
         * numerical_statistical_results.csv
+        * percent_change_bar_plot.png
     * LICENSE.md
     * README.md
 
