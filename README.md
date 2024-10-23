@@ -30,7 +30,11 @@ The follow is a map of our project's repository.
 
 ## Section 3: Reproducing Results Instructions
 In order to replicate this study, the user should:
-1. 
+1. Begin by familiarizing themselves with Disney original movies and TV shows that aired between the year 2006-2016.
+2. A movie or TV show is considered popular if the premeire or episodes of the show appeared in the top 50 most viewed on Disney [2, 3]. Select 8 of the most popular movies and TV shows, then identify 8 actors from those selections who also pursued a music career.
+3. After selecting a pool of artists, find each musician's Spotify data on "Song Stats" then select the graph depicting "Popularity and Monthly Listeners" [1]. To obtain the data used in this graph, inspect the website, refresh the page, and find the GET request under the 'Network' tab. This will provide a JSON file containing the specific artist's popularity and monthly listeners for a given date from 2021 to the day it was accessed. Upload the JSON into a Python notebook with json, csv, and datetime imported. First convert the JSON into a csv. Popularity will not be evaluated in this analysis so the data can be dropped. In addition, a column will be added to keep track of the artist's name. (Does preprocessing append them all to be one csv file, or does analysis? Does preprocessing convert the dates to be readable?)
+4. Once all of the artist data has been downloaded, create a new Python notebook with pandas and matplotlib.pyplot imported. Here plot the monthly listeners for each former Disney star between the years 2021-2024 in a multiline chart (by creating a new dataframe for each artist in the final data set?). Repeat the process, but this time transform the data by taking the logarithm of the monthly listeners for each artist to better visualize the less popular artists on the graph.
+5. After creating the graphs, calculate the average, minimum, maximum, and percent change of monthly listeners for each artist. To calculate the percent change in monthly listeners from the first month to the latest month, subtract the number of monthly listeners in the first month from the number of monthly listeners in the latest month, then divide the difference by the first month's listeners, and then multiply the result by 100 to get the percentage.
 
  ## References:
  *any reference relevated to the code can  be found directly in the Python notebooks.*
